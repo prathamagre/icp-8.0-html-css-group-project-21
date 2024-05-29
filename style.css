@@ -14,7 +14,7 @@ body{
     border-bottom: solid 1px gray;
 }
 .logo {
-    height: 140px;
+    height: 120px;
     display: block;
     margin: 0 auto;
 }
@@ -22,7 +22,7 @@ body{
 .brand-name {
     margin: 0;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .address{
@@ -31,4 +31,42 @@ body{
 }
 .mobile{
     text-align: right;
+    font-size: 15px;
 }
+.receipt-body{
+    position: relative;
+   
+}
+.receipt-heading{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0 ;
+}
+
+.receipt-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 15px;
+}
+.receipt-details-key{
+    color: rgb(72, 72, 72);
+    width: 30%;
+}
+.receipt-details-value{
+    font-weight: bold;
+    border-bottom: dashed 1px gray;
+    width: 30%;
+}
+.signature{
+    height: 70px;
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+}
+.acc-signature{
+    text-align: right;
+    margin-top: 80px ;
+}
+.receipt-footer{}
