@@ -63,10 +63,15 @@ body{
     height: 70px;
     position: absolute;
     right: 0;
-    bottom: 80px;
+    bottom: 170px;
 }
 .acc-signature{
     text-align: right;
     margin-top: 80px ;
 }
-.receipt-footer{}
+.receipt-footer{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: rgb(248, 229, 108);
+}
