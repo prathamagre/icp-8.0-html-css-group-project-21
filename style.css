@@ -1,8 +1,17 @@
 body{
-
+    background-color: rgb(219, 255, 242);
 }
 .receipt-container{
-    
+    width: 80%;
+    border: 2px gray solid;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:0 0 10px rgb(125, 124, 124);
+}
+.receipt-header{
+    border-bottom: solid 1px gray;
 }
 .logo {
     height: 140px;
@@ -15,4 +24,11 @@ body{
     text-align: center;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.address{
+    text-align: right;
+    font-size: 15px;
+}
+.mobile{
+    text-align: right;
 }
